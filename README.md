@@ -64,3 +64,18 @@ Once the application is launched, you can:
     -   Save a route (name, origin, destination).
     -   Quickly retrieve your saved routes.
     -   Edit or delete a favorite route.
+
+## Disclaimer
+This repository was created as part of coursework. Some files (such as starter code, assignments, resources) were provided by the instructor or belong to third parties. All rights to these materials remain with their original authors and/or copyright holders.
+
+My own contributions in this repository are shared under the MIT License. Files provided by instructors, external authors, or third parties are **not** covered by this license.
+
+### Instructor-provided materials
+
+This repository specifically includes the following materials provided by the instructor:
+
+- **stib.db.sql** – Database creation and population script
+- **ConfigManager.java** – Singleton giving access to all properties of the `model.config.properties` file
+- **DBManager.java** – Helper class managing database connections
+- **logo.png** – STIB logo (© STIB-MIVB). All rights reserved
+- **metro.gif** – STIB metro map (© STIB-MIVB). All rights reserved
