@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.SearchableComboBox?>
+
+<DialogPane prefHeight="263.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+   <content>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="185.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="0.0" prefWidth="600.0" spacing="20.0">
+               <children>
+                  <Label text="Nom : " />
+                  <TextField fx:id="favoriteName" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="0.0" prefWidth="560.0" spacing="20.0">
+               <children>
+                  <Label text="Station de départ :" />
+                  <SearchableComboBox fx:id="favoriteStart" prefHeight="15.0" prefWidth="254.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="0.0" prefWidth="560.0" spacing="20.0">
+               <children>
+                  <Label text="Station d'arrivée :" />
+                  <SearchableComboBox fx:id="favoriteEnd" prefHeight="25.0" prefWidth="254.0" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </content>
+   <header>
+      <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #e3e3e3, #bfbfbf);">
+         <children>
+            <Label text="Modification de favori" textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+   </header>
+</DialogPane>
